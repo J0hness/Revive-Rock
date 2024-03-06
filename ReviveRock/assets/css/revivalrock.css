@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+}
+
+body {
+  /* background-color: #1c0e24; */
+  background-image: url(../images/Fundo.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+@font-face {
+  font-family: SoRock;
+  src: url(../fonts/MetalVengeanceItalic-owAdd.ttf);
+}
+
+/* Navbar---------------------- */
+
+.navcor {
+  width: 100%;
+  height: 70px;
+  background-color: #323233;
+}
+
+nav {
+  position: fixed;
+  top: 0%;
+  z-index: 999;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 50px;
+  padding-top: 25px;
+  float: right;
+  margin-right: 30px;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  padding: 27px 18px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #c4c4c4;
+  color: #000;
+  transition: 0.5s;
+}
+
+/* Navbar---------------------- */
+
+.clear {
+  clear: both;
+}
+
+div img {
+  width: 120px;
+  height: 65px;
+  float: left;
+  margin-right: 0px;
+  margin-left: 15px;
+}
+
+backgorund {
+  background-color: #57606f;
+}
+
+.logo h1 {
+  margin-left: 10px;
+  padding-top: 15px;
+  font-family: SoRock;
+  float: left;
+  font-size: 30px;
+}
+
+.img {
+  height: 600px;
+  background-image: url(../images/Bandas.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: 80px;
+}
+
+.conteudo .textBox {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 30px;
+  align-items: center;
+}
+
+.conteudo .textBox .text {
+  color: #fff;
+}
+
+.logoimg {
+  height: 400px;
+  background-image: url(../images/LogoRevival2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.text {
+  position: relative;
+  margin-top: -500;
+  padding: 0;
+}
+
+footer.asds {
+  background-color: #323233;
+  padding: 30px 2%;
+}
+
+footer .footer-block {
+  float: left;
+  width: 30%;
+  text-align: left;
+}
+
+footer .footer-block p {
+  padding-left: 40px;
+}
+
+footer .footer-block-contato {
+  float: right;
+}
+
+footer .footer-block,
+.footer-block-contato span {
+  color: #e2e2e2;
+  font-size: 19px;
+}
+
+footer .footer-block-contato a {
+  text-decoration: none;
+  color: #e2e2e2;
+  font-size: 18px;
+}
+
+footer .footer-block-contato a:hover {
+  text-decoration: underline;
+}
+
+footer .footer-block-contato ul {
+  list-style-type: none;
+}
+
+.i {
+  float: right;
+}
+
+.i li {
+  float: left;
+  padding: 25px;
+}
+
+.i h3 {
+  text-align: center;
+}

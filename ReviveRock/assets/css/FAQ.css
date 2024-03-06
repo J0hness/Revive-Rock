@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+}
+
+body {
+  background-image: url(../images/Fundo.png);
+  background-size: 100% 100%;
+}
+
+@font-face {
+  font-family: SoRock;
+  src: url(../fonts/MetalVengeanceItalic-owAdd.ttf);
+}
+
+/* Navbar---------------------- */
+
+.navcor {
+  width: 100%;
+  height: 70px;
+  background-color: #323233;
+}
+
+nav {
+  position: fixed;
+  top: 0%;
+  z-index: 999;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 50px;
+  padding-top: 25px;
+  float: right;
+  margin-right: 30px;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  padding: 27px 18px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #c4c4c4;
+  color: #000;
+  transition: 0.5s;
+}
+
+/* Navbar---------------------- */
+
+.clear {
+  clear: both;
+}
+
+div img {
+  width: 120px;
+  height: 65px;
+  float: left;
+  margin-right: 0px;
+  margin-left: 15px;
+}
+
+backgorund {
+  background-color: #57606f;
+}
+
+.logo h1 {
+  margin-left: 10px;
+  padding-top: 15px;
+  font-family: SoRock;
+  float: left;
+  font-size: 30px;
+}
+th {
+  text-align: center;
+  color: red;
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+table,
+td,
+th {
+  border: none;
+  align-items: center;
+}
+td {
+  text-align: center;
+}
+
+.text {
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+.alinha {
+  width: 500px;
+  margin: 0 auto;
+  align-items: center;
+  padding-bottom: 50px;
+}
+div .conteudo .arruma {
+  margin: 0 auto;
+  text-align: center;
+}
+.textrock {
+  font-family: SoRock;
+  text-decoration: underline;
+}
+.titulo {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+}
+.conteudo {
+  width: 1000px;
+  margin: 0 auto;
+}
+.title2 {
+  font-size: 25px;
+}
+a:hover {
+  color: red;
+  transition: 0.5s;
+}
+.none {
+  text-decoration: none;
+  font-family: SoRock;
+  font-size: 15px;
+}

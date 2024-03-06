@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  color: #f10d0dd8;
+}
+
+body {
+  background-color: #21cfcf;
+}
+
+/* Navbar---------------------- */
+
+nav ul {
+  text-transform: uppercase;
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+  background-color: #25794b;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+nav li {
+  float: left;
+  font-size: 20px;
+}
+
+nav li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 15px 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav li a:hover {
+  background-color: #51e0b8;
+  color: black;
+}
+
+/* Navbar---------------------- */
+
+.centraliza {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto img {
+  max-width: 100%;
+  height: 630px;
+  margin-bottom: 130px;
+}
+
+.foto {
+  z-index: 3;
+  margin-right: 40px;
+}
+
+.texto {
+  text-align: justify;
+  line-height: 25px;
+  font-size: 20px;
+  width: 100%;
+  max-width: 750px;
+  padding-top: 100px;
+}
+
+.title-name {
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-top: 80px;
+}
+
+.container-texto {
+  width: 100%;
+  padding-top: 80px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.escolaridade {
+  padding: 18em 0 0 0;
+}
+
+.escolaridade h2 {
+  font-size: 30px;
+}
+
+.divide {
+  display: flex;
+  font-size: 20px;
+}
+
+.divide li {
+  margin: 25px 25px;
+}
+
+.cursos {
+  padding: 5em 0 0 0;
+}
+
+.cursos h2 {
+  font-size: 30px;
+}
+
+.contatos {
+  padding-top: 8em;
+}

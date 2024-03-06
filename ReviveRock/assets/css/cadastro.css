@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+}
+
+body {
+  /* background-color: #1c0e24; */
+  background-image: url(../images/Fundo.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 1080px;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: SoRock;
+  src: url(../fonts/MetalVengeanceItalic-owAdd.ttf);
+}
+
+/* Navbar---------------------- */
+
+.navcor {
+  width: 100%;
+  height: 70px;
+  background-color: #323233;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 50px;
+  padding-top: 25px;
+  float: right;
+  margin-right: 30px;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  padding: 27px 18px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #c4c4c4;
+  color: #000;
+  transition: 0.5s;
+}
+
+.loguo img {
+  width: 120px;
+  height: 65px;
+  float: left;
+  margin-right: 0px;
+  margin-left: 15px;
+}
+
+.loguo h1 {
+  margin-left: 10px;
+  padding-top: 15px;
+  font-family: SoRock;
+  float: left;
+  font-size: 30px;
+}
+
+/* Navbar---------------------- */
+.clear {
+  clear: both;
+}
+
+.ooo .box {
+  position: absolute;
+  width: 400px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  box-shadow: 0 10px 10px 10px rgb(0, 0, 0, 0.2);
+}
+
+.ooo .header {
+  background-image: url(../images/desktop-wallpaper-rock-n-roll-rock-and-roll-thumbnail.png);
+  background-size: cover;
+  padding: 90px 30px;
+  color: white;
+  border-radius: 15px 15px 0 0;
+}
+
+.ooo .login-area {
+  text-align: center;
+  padding: 50px 50px 30px 50px;
+}
+
+.ooo .username,
+.ooo .password,
+.ooo .url {
+  width: 100%;
+  text-align: center;
+  padding: 13px 0;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: rgba(55, 10, 114, 0.5);
+  margin-bottom: 15px;
+  transition: 0, 5s;
+}
+
+.ooo .username::placeholder,
+.ooo .password::placeholder,
+.ooo .url::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.ooo .username:focus,
+.ooo .password:focus,
+.ooo .url:focus {
+  background-color: rgba(55, 10, 114, 0.7);
+}
+
+.ooo .submit {
+  width: 150px;
+  padding: 10px;
+  background-color: rgba(55, 10, 114, 1);
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  outline: none;
+  margin: 10px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.ooo .imglabel {
+  color: black;
+}
+.ooo .img {
+  width: 100%;
+  text-align: center;
+  padding: 13px 0;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: rgba(55, 10, 114, 0.5);
+  margin-bottom: 15px;
+  transition: 0, 5s;
+}
+
+.ooo .submit:hover {
+  background-color: #1f0344;
+}
+
+.header h4,
+.header p {
+  text-align: center;
+}
+
+.header h4{
+  font-size: 20px;
+}
+
+.header p {
+  font-size: 15px;
+  padding-top: 10px;
+}
